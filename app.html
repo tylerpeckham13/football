@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Steelers Game 🏈</h1>
+
+<div class="box">
+    <p>Guess a number from 1–10</p>
+    <input type="number" id="guess">
+    <button onclick="check()">Submit</button>
+
+    <p id="result"></p>
+</div>
+
+<script>
+let number = Math.floor(Math.random() * 10) + 1;
+
+function check() {
+    let guess = document.getElementById("guess").value;
+
+    if (guess == number) {
+        document.getElementById("result").innerText = "Touchdown! You got it!";
+    } else {
+        document.getElementById("result").innerText = "Try again!";
+    }
+}
+</script>
+
+</body>
+</html>
