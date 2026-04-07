@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Football Game</title>
+    <title>Steelers Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<h1>Steelers Game 🏈</h1>
+<div class="navbar">
+    <h1>Steelers Game</h1>
+    <a href="index.html">Home</a>
+</div>
 
-<div class="box">
-    <p>Guess a number from 1–10</p>
-    <input type="number" id="guess">
-    <button onclick="check()">Submit</button>
-
-    <p id="result"></p>
+<div class="container">
+    <div class="card">
+        <p>Guess a number from 1–10</p>
+        <input type="number" id="guess">
+        <button onclick="check()">Submit</button>
+        <p id="result"></p>
+    </div>
 </div>
 
 <script>
