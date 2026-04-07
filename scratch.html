@@ -2,76 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pittsburgh Steelers Page</title>
+    <title>Pittsburgh Steelers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<a href="index.html">← Back to Home</a>
+<div class="navbar">
+    <div class="logo-section">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Pittsburgh_Steelers_logo.svg" width="40">
+        <h1>Steelers Nation</h1>
+    </div>
 
-<h1 id="top">Pittsburgh Steelers 🏈</h1>
-
-<!-- Anchor link -->
-<a href="#players">Go to Favorite Players</a>
-
-<!-- DIV 1 -->
-<div class="box">
-    <h2>About the Steelers</h2>
-    <p>The Pittsburgh Steelers are one of the most successful teams in NFL history.</p>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="app.html">Game</a>
+    </div>
 </div>
 
-<!-- Nested List -->
-<div class="box">
-    <h2>Why I Like the Steelers</h2>
-    <ol>
-        <li>Winning Tradition
-            <ul>
-                <li>6 Super Bowl Titles</li>
-                <li>Strong Defense</li>
-            </ul>
-        </li>
-        <li>Great Players
-            <ul>
-                <li>Troy Polamalu</li>
-                <li>Ben Roethlisberger</li>
-            </ul>
-        </li>
-    </ol>
+<div class="hero">
+    <h2>Pittsburgh Steelers</h2>
+    <p>Six-Time Super Bowl Champions</p>
 </div>
 
-<!-- Image -->
-<div class="box">
-    <h2>Steelers in Action</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Steelers_vs_Ravens_2015.jpg" width="400">
-</div>
+<a href="#players">Go to Legends</a>
 
-<!-- YouTube Video -->
-<div class="box">
-    <h2>Steelers Highlights</h2>
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/nR6W8o1e6s8"
-    frameborder="0" allowfullscreen>
-    </iframe>
-</div>
+<div class="container">
 
-<!-- Anchor target -->
-<div class="box" id="players">
-    <h2>Favorite Players</h2>
-    <p>Troy Polamalu is one of the greatest defensive players ever.</p>
-</div>
+    <div class="card">
+        <h2>About the Steelers</h2>
+        <p>The Pittsburgh Steelers are one of the most successful franchises in NFL history.</p>
+    </div>
 
-<!-- Tableau Graph -->
-<div class="box">
-    <h2>NFL Stats Visualization</h2>
-    <iframe src="https://public.tableau.com/views/NFLDashboard/Story1?:showVizHome=no"
-    width="800" height="600"></iframe>
-</div>
+    <!-- Nested List -->
+    <div class="card">
+        <h2>Why the Steelers are Great</h2>
+        <ol>
+            <li>Championship Success
+                <ul>
+                    <li>6 Super Bowls</li>
+                    <li>Historic franchise</li>
+                </ul>
+            </li>
+            <li>Legendary Players
+                <ul>
+                    <li>Troy Polamalu</li>
+                    <li>Ben Roethlisberger</li>
+                    <li>Terry Bradshaw</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
 
-<!-- Link to app -->
-<div class="box">
-    <h2>Try My Game</h2>
-    <a href="app.html">Play My Football Game</a>
+    <!-- YouTube -->
+    <div class="card">
+        <h2>Highlights</h2>
+        <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/nR6W8o1e6s8"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Tableau -->
+    <div class="card">
+        <h2>Stats</h2>
+        <iframe src="https://public.tableau.com/views/NFLDashboard/Story1?:showVizHome=no"
+        width="100%" height="400"></iframe>
+    </div>
+
+    <!-- Players -->
+    <div class="card" id="players">
+        <h2>All-Time Steelers Legends</h2>
+
+        <div class="players">
+
+            <div class="player">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Troy_Polamalu_2011.jpg">
+                <h3>Troy Polamalu</h3>
+                <p>Legendary safety</p>
+            </div>
+
+            <div class="player">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Ben_Roethlisberger_2017.jpg">
+                <h3>Ben Roethlisberger</h3>
+                <p>Super Bowl QB</p>
+            </div>
+
+            <div class="player">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Terry_Bradshaw_2018.jpg">
+                <h3>Terry Bradshaw</h3>
+                <p>Hall of Fame QB</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="app.html">Play My Game</a>
+    </div>
+
 </div>
 
 </body>
